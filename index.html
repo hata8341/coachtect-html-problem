@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COACHTECT</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>株式会社TECT</h1>
+      <a href="">
+        <ul>
+            <li>ホーム</li>
+            <li>企業情報</li>
+            <li>会社概要</li>
+            <li>よくある質問</li>
+            <li>お問い合わせ</li>
+          </ul>
+        </a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <img src="img/mv.png" alt="屋上からの眺め" >
+      <p>最新のテクノロジーで<em>社会問題</em>を解決</p>
+    </section>
+    <section>
+      <h2>会社概要</h2>
+      <table>
+        <tr>
+          <th>会社名</th>
+          <td>株式会社TECT</td>
+        </tr>
+        <tr>
+          <th>代表者</th>
+          <td>山田 太郎</td>
+        </tr>
+        <tr>
+          <th>所在地</th>
+          <td>東京都渋谷区神宮前</td>
+        </tr>
+        <tr>
+          <th>設立</th>
+          <td>2019/07/17</td>
+        </tr>
+        <tr>
+          <th>従業員数</th><td>100人</td></tr>
+        <tr>
+          <th>資本金</th><td>1000万円</td></tr>
+      </table>
+    </section>
+    <section>
+      <h2>お問い合わせ</h2>
+      <form action="" method="post">
+        <div>
+          <label for="company-name">会社名 </label>
+          <input type="text" name="company-name" id="company-name">
+        </div>
+        <div>
+          <label for="name">お名前 </label><input type="text" name="name" id="name">
+        </div>
+        <div>
+          <label for="email-adress">メールアドレス </label><input type="email" name="email-adress" id="email-adress">
+        </div>
+        <div>
+          <label for="contact-contents">お問い合わせ内容 </label><textarea name="contact-contents" id="contact-contents" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <!-- value属性でボタン内の文書を決める -->
+          <input type="submit" value="お問い合わせ">
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <small>&COPY;2020 TECT inc.</small>
+  </footer>
+</body>
+</html>
